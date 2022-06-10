@@ -1,3 +1,5 @@
+import scala.util.control.NonFatal
+
 object Main extends App {
   println("Hello, World!")
   def failingFn(i: Int): Int = {
@@ -50,5 +52,29 @@ object Main extends App {
   val x: Either[String, Int] = Right(7)
   val result1 = for (res <- x.right) { res }
   val result2 = for (res <- x.left) { res }
+
+  println(result1)
+  println(result2)
+
+  def mean2(xs: Seq[Double]): Either[String, Double] = {
+    if (xs.isEmpty)
+      Left("mean of empty list!")
+    else
+      Right(xs.sum / xs.length)
+  }
+  println("nums:" + nums)
+  println(mean2(nums))
+
+  println("nums2:" + nums2)
+  println(mean2(nums2))
+
+  def catchNonFatal[A](a: => A): Either[Throwable, A] = {
+    try { Right(a) }
+    catch {
+      case NonFatal(t) => Left(t)
+    }
+  }
+
+  println("catchNonFatal:" + catchNonFatal(3 / 0))
 
 }

@@ -8948,3 +8948,208 @@ Caused by: java.lang.IllegalArgumentException: 67 is not a valid line number, al
 2022.06.10 10:39:43 WARN  Could not load snapshot text for /home/cannon/hello-world/src/main/scala/Main.scala[0m
 2022.06.10 10:39:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
 2022.06.10 10:39:45 INFO  time: compiled hello-world in 1.79s[0m
+Jun 10, 2022 10:51:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 10, 2022 10:51:44 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.10 10:56:05 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 10:56:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 10:56:06 INFO  time: compiled hello-world in 1.05s[0m
+2022.06.10 10:56:10 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.6' (since 11h 57m 34.549s)[0m
+2022.06.10 10:56:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-server.trace.json or /home/cannon/.cache/metals/dap-server.trace.json[0m
+2022.06.10 10:56:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-client.trace.json or /home/cannon/.cache/metals/dap-client.trace.json[0m
+2022.06.10 10:56:10 INFO  Starting debug proxy for [Main][0m
+2022.06.10 10:56:16 INFO  Trying to attach to remote debuggee VM localhost:49509 .[0m
+2022.06.10 10:56:16 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.10 10:56:17 INFO  Canceling debug proxy for [Main][0m
+2022.06.10 10:56:16 INFO  Closing debug server tcp://0.0.0.0:36475[0m
+2022.06.10 11:49:52 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:49:52 INFO  time: compiled hello-world in 58ms[0m
+2022.06.10 11:50:29 ERROR scalafmt: /home/cannon/hello-world/src/main/scala/Main.scala:62: error: [dialect scala213] val in for comprehension must be followed by assignment
+        val a <- Either.catchNonFatal { age.toInt }
+              ^[0m
+2022.06.10 11:50:29 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:50:29 INFO  time: compiled hello-world in 52ms[0m
+2022.06.10 11:50:43 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:50:43 INFO  time: compiled hello-world in 48ms[0m
+2022.06.10 11:51:13 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:51:13 INFO  time: compiled hello-world in 49ms[0m
+2022.06.10 11:56:08 ERROR scalafmt: /home/cannon/hello-world/src/main/scala/Main.scala:58: error: [dialect scala213] ( expected but identifier found
+    if xs.isEmpty then
+       ^[0m
+2022.06.10 11:56:08 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:56:08 INFO  time: compiled hello-world in 52ms[0m
+2022.06.10 11:56:21 ERROR scalafmt: /home/cannon/hello-world/src/main/scala/Main.scala:60: error: [dialect scala213] ; expected but else found
+    else
+    ^[0m
+2022.06.10 11:56:21 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:56:21 INFO  time: compiled hello-world in 41ms[0m
+2022.06.10 11:56:28 ERROR scalafmt: /home/cannon/hello-world/src/main/scala/Main.scala:60: error: [dialect scala213] ; expected but else found
+    else
+    ^[0m
+2022.06.10 11:56:28 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:56:28 INFO  time: compiled hello-world in 37ms[0m
+2022.06.10 11:56:34 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:56:34 INFO  time: compiled hello-world in 0.14s[0m
+2022.06.10 11:56:48 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:56:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 11:56:48 INFO  time: compiled hello-world in 0.75s[0m
+2022.06.10 11:57:10 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:57:10 INFO  time: compiled hello-world in 0.13s[0m
+2022.06.10 11:57:23 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:57:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 11:57:23 INFO  time: compiled hello-world in 0.73s[0m
+2022.06.10 11:58:01 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:58:01 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 11:58:01 INFO  time: compiled hello-world in 0.76s[0m
+2022.06.10 11:58:05 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.6' (since 12h 59m 29.214s)[0m
+2022.06.10 11:58:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-server.trace.json or /home/cannon/.cache/metals/dap-server.trace.json[0m
+2022.06.10 11:58:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-client.trace.json or /home/cannon/.cache/metals/dap-client.trace.json[0m
+2022.06.10 11:58:05 INFO  Starting debug proxy for [Main][0m
+2022.06.10 11:58:09 INFO  Trying to attach to remote debuggee VM localhost:36189 .[0m
+2022.06.10 11:58:09 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.10 11:58:10 INFO  Canceling debug proxy for [Main][0m
+2022.06.10 11:58:09 INFO  Closing debug server tcp://0.0.0.0:44537[0m
+2022.06.10 11:58:44 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:58:44 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 11:58:44 INFO  time: compiled hello-world in 0.73s[0m
+2022.06.10 11:59:00 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.6' (since 13h 25.026s)[0m
+2022.06.10 11:59:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-server.trace.json or /home/cannon/.cache/metals/dap-server.trace.json[0m
+2022.06.10 11:59:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-client.trace.json or /home/cannon/.cache/metals/dap-client.trace.json[0m
+2022.06.10 11:59:01 INFO  Starting debug proxy for [Main][0m
+2022.06.10 11:59:04 INFO  Trying to attach to remote debuggee VM localhost:57645 .[0m
+2022.06.10 11:59:04 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.10 11:59:04 INFO  Canceling debug proxy for [Main][0m
+2022.06.10 11:59:04 INFO  Closing debug server tcp://0.0.0.0:46093[0m
+2022.06.10 11:59:39 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 11:59:39 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 11:59:39 INFO  time: compiled hello-world in 0.75s[0m
+2022.06.10 11:59:41 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.6' (since 13h 1m 5.737s)[0m
+2022.06.10 11:59:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-server.trace.json or /home/cannon/.cache/metals/dap-server.trace.json[0m
+2022.06.10 11:59:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-client.trace.json or /home/cannon/.cache/metals/dap-client.trace.json[0m
+2022.06.10 11:59:41 INFO  Starting debug proxy for [Main][0m
+2022.06.10 11:59:45 INFO  Trying to attach to remote debuggee VM localhost:45037 .[0m
+2022.06.10 11:59:45 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.10 11:59:45 INFO  Canceling debug proxy for [Main][0m
+2022.06.10 11:59:45 INFO  Closing debug server tcp://0.0.0.0:43595[0m
+2022.06.10 13:49:55 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:49:55 INFO  time: compiled hello-world in 82ms[0m
+2022.06.10 13:50:18 ERROR scalafmt: /home/cannon/hello-world/src/main/scala/Main.scala:72: error: [dialect scala213] ) expected but => found
+    case (NonFatal(t) => Left(t))
+                      ^[0m
+2022.06.10 13:50:18 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:50:18 INFO  time: compiled hello-world in 52ms[0m
+2022.06.10 13:50:21 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:50:21 INFO  time: compiled hello-world in 39ms[0m
+2022.06.10 13:50:42 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:50:42 INFO  time: compiled hello-world in 52ms[0m
+2022.06.10 13:51:20 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:51:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 13:51:21 INFO  time: compiled hello-world in 1.08s[0m
+2022.06.10 13:51:50 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:51:50 WARN  Could not load snapshot text for /home/cannon/hello-world/src/main/scala/Main.scala[0m
+2022.06.10 13:51:50 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 13:51:50 INFO  time: compiled hello-world in 0.95s[0m
+2022.06.10 13:52:05 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:52:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 13:52:05 INFO  time: compiled hello-world in 0.9s[0m
+2022.06.10 13:53:25 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:53:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 13:53:25 INFO  time: compiled hello-world in 0.84s[0m
+2022.06.10 13:53:29 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.6' (since 14h 54m 53.903s)[0m
+2022.06.10 13:53:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-server.trace.json or /home/cannon/.cache/metals/dap-server.trace.json[0m
+2022.06.10 13:53:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-client.trace.json or /home/cannon/.cache/metals/dap-client.trace.json[0m
+2022.06.10 13:53:29 INFO  Starting debug proxy for [Main][0m
+2022.06.10 13:53:33 INFO  Trying to attach to remote debuggee VM localhost:40751 .[0m
+2022.06.10 13:53:33 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.10 13:53:33 INFO  Canceling debug proxy for [Main][0m
+2022.06.10 13:53:33 INFO  Closing debug server tcp://0.0.0.0:44529[0m
+2022.06.10 13:53:42 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:53:42 INFO  time: compiled hello-world in 0.12s[0m
+2022.06.10 13:53:46 INFO  compiling hello-world (1 scala source)[0m
+2022.06.10 13:53:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.06.10 13:53:46 INFO  time: compiled hello-world in 0.77s[0m
+2022.06.10 13:53:50 INFO  Deduplicating compilation of hello-world from bsp client 'Metals 0.11.6' (since 14h 55m 14.344s)[0m
+2022.06.10 13:53:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-server.trace.json or /home/cannon/.cache/metals/dap-server.trace.json[0m
+2022.06.10 13:53:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cannon/hello-world/.metals/dap-client.trace.json or /home/cannon/.cache/metals/dap-client.trace.json[0m
+2022.06.10 13:53:50 INFO  Starting debug proxy for [Main][0m
+2022.06.10 13:53:54 INFO  Trying to attach to remote debuggee VM localhost:53741 .[0m
+2022.06.10 13:53:54 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.10 13:53:54 INFO  Canceling debug proxy for [Main][0m
+2022.06.10 13:53:54 INFO  Closing debug server tcp://0.0.0.0:46759[0m
+Jun 10, 2022 2:01:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/cannon/hello-world/src/main/scala/Main.scala?%7B%22path%22%3A%22%2Fhome%2Fcannon%2Fhello-world%2Fsrc%2Fmain%2Fscala%2FMain.scala%22%2C%22ref%22%3A%22%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1129)
+	... 16 more
+
+Jun 10, 2022 2:02:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/cannon/hello-world/src/main/scala/Main.scala?%7B%22path%22%3A%22%2Fhome%2Fcannon%2Fhello-world%2Fsrc%2Fmain%2Fscala%2FMain.scala%22%2C%22ref%22%3A%22%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1129)
+	... 16 more
+
